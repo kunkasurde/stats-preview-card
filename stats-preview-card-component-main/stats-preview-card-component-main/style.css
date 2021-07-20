@@ -1,0 +1,173 @@
+*{
+  margin:0;
+  padding:0;
+  box-size:border-box;
+}
+
+
+body{
+
+    min-height:100vh;
+    width:  1440px;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+   
+}
+
+.panel{
+ 
+  margin: 20px;
+  padding: 40px;
+  color : white;
+  height: 350px;
+  width : 700px;
+  background-color:hsl(244, 38%, 16%);
+  
+}
+
+#section1{
+
+ width: 350px;
+}
+
+
+
+
+
+.heading{
+
+
+  font-color: hsl(0, 0%, 100%);
+  font-family: [Inter](https://fonts.google.com/specimen/Inter);
+  font-weight: 400;
+  font-size: 35px;
+}
+
+
+.title{
+ font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+ font-weight: 400;
+ font-size: 15px;
+ color:  hsla(0, 0%, 100%, 0.75);
+
+}
+
+#section2{
+}
+
+img{
+  width: 350px;
+  height: 350px;
+  position: relative;
+  bottom: 250px;
+  left: 370px;
+}
+
+
+.clr{
+	color: hsl(277, 64%, 61%);
+}
+
+.attribution{
+  color: whitesmoke;
+}
+
+
+
+#imageFilter{
+
+   width: 350px;
+  height: 350px;
+  position: relative;
+  bottom: 605px;
+  left: 370px;
+  background-color: hsla(277, 64%, 61%,0.6);
+}
+
+#ratingsm{
+
+color: whitesmoke;
+visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 375px){
+
+.panel{
+  margin: 0px;
+
+  width: 350px;
+  min-height: 950px;
+  border-radius: 20px;
+}
+    
+img{
+    padding:  0px;
+    margin:  0px;
+    width: 430px;
+    height: 450px
+    position: relative; 
+    bottom: 200px;
+    left:  -40px;
+    border-radius: 20px;
+
+  
+
+  }
+
+#imageFilter{
+     width: 430px;
+    height: 450px
+    position: relative;
+    bottom: 555px;
+    left:  -40px;
+    border-radius: 20px;
+    postion: fixed;
+
+
+}
+
+#section1{
+  width: 280px;
+  margin: auto;
+  position: relative;
+  top: 350px;
+  padding-left: 20px;
+  margin:  auto;
+  text-align: center;
+
+
+}
+
+#ratingsm{
+visibility: visible;
+color: whitesmoke;
+text-align: center;
+position: relative ;
+top: -230px;
+}
+
+
+#ratingsd{
+  display: none;
+}
+
+
+
+
+
+}
+ 
